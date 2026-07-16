@@ -1,6 +1,6 @@
 cask "liquidiumbar" do
-  version "0.1.1"
-  sha256 "ce5118caf7c66f2ca11e197867f083cabcacca3d2ecffeed3db0f4d4800bb4b7"
+  version "0.1.2"
+  sha256 "9174e12b01741a048cd5c49cdfa0b916a4d683c7014dccf9fb444ad3c4d0b686"
 
   url "https://github.com/dylanvanh/LiquidiumBar/releases/download/v#{version}/LiquidiumBar_#{version}_aarch64.dmg"
   name "LiquidiumBar"
@@ -20,10 +20,4 @@ cask "liquidiumbar" do
     "~/Library/Saved Application State/app.liquidiumbar.desktop.savedState",
     "~/Library/WebKit/app.liquidiumbar.desktop",
   ]
-
-  caveats <<~EOS
-    LiquidiumBar is not yet notarized by Apple. On first launch, macOS may block
-    the app. Try opening LiquidiumBar, then open System Settings > Privacy &
-    Security and choose Open Anyway.
-  EOS
 end
