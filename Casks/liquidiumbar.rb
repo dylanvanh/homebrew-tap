@@ -1,6 +1,6 @@
 cask "liquidiumbar" do
-  version "0.1.3"
-  sha256 "ca5d04280994583a3a4595bdb6658a918fee6083168d3c6e354ea34c8101cf5e"
+  version "0.1.4"
+  sha256 "468486889fe563185983912bf444caac2297db7c37301dd1bd44f5ab9db838a8"
 
   url "https://github.com/dylanvanh/LiquidiumBar/releases/download/v#{version}/LiquidiumBar_#{version}_aarch64.dmg"
   name "LiquidiumBar"
