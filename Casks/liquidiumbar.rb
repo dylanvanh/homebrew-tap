@@ -1,12 +1,13 @@
 cask "liquidiumbar" do
-  version "0.1.5"
-  sha256 "ee830c7e94a27bdc87f0c40465732a54d256d56e32384038664eb8b566021765"
+  version "0.1.6"
+  sha256 "af6f37a4044794a03256039fbab24ac49e545475c9723a0f93f458c963673cf2"
 
   url "https://github.com/dylanvanh/LiquidiumBar/releases/download/v#{version}/LiquidiumBar_#{version}_aarch64.dmg"
   name "LiquidiumBar"
   desc "Liquidium lending markets and portfolio monitor for the menu bar"
   homepage "https://github.com/dylanvanh/LiquidiumBar"
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :monterey
 
